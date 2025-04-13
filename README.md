@@ -2,7 +2,7 @@
 This project consisted of the development of an automated web scraping and document retrieval software for the OSCE arbitrals database, which contains 699 records divided across multiple pages. This database also included download links for documents providing details about each arbitral case, including results and resolutions.
 
 Why is it useful?
-- It allows data to be consolidated into a single CVS file, enabling further actions and analysis to gain deeper insights.
+- It allows data to be consolidated into a single XLXS file, enabling further actions and analysis to gain deeper insights.
 - It performs automatic downloads at short intervals, significantly saving time.
 - It ensures consistency and reduces human error in the data collection process.
 - It facilitates large-scale monitoring of arbitration outcomes and trends over time.
@@ -15,5 +15,5 @@ Process:
 - A pattern in the href attribute of the download buttons was identified, which made it possible to rename the downloaded files for easier recognition.
 - Finally, I obtained a downloaded database in CSV format along with the corresponding documents for each record.
 
-  --> You can check the raw data in the CSV file located in the folder, as well as a screenshot showing the documents organized in numerical order.
+  --> You can check the raw data in the XLSX file located in the folder, as well as a screenshot showing the documents organized in numerical order.
 
